@@ -99,7 +99,6 @@ const BidTable: FC<IBidTableProps> = ({ bids }) => {
         >
           Previous
         </Button>
-        <span>{}</span>
         <Button
           variant="outline"
           size="sm"

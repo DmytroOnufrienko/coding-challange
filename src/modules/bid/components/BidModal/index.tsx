@@ -37,14 +37,28 @@ const BidDetailsModal: FC<IBidDetailsModalProps> = ({ trigger, content }) => {
           <DialogTitle>Bid Details</DialogTitle>
         </DialogHeader>
         <p>
-          <span className="text-bold">ID:</span> {id}
+          <span className="font-bold">ID:</span> {id}
         </p>
-        <p>Title: {title}</p>
-        <p>Due Date: {dueDate}</p>
-        <p>Solicitation Summary: {solicitationSummary}</p>
-        <p>Main Category: {mainCategory}</p>
-        <p>Solicitation Type: {solicitationType}</p>
-        <p>Attachments: {attachments}</p>
+        <p>
+          <span className="font-bold">Title:</span> {title}
+        </p>
+        <p>
+          <span className="font-bold">Due Date:</span> {dueDate}
+        </p>
+        <p>
+          <span className="font-bold">Solicitation Summary:</span>{" "}
+          {solicitationSummary}
+        </p>
+        <p>
+          <span className="font-bold">Main Category:</span> {mainCategory}
+        </p>
+        <p>
+          <span className="font-bold">Solicitation Type:</span>{" "}
+          {solicitationType}
+        </p>
+        <p>
+          <span className="font-bold">Attachments:</span> {attachments}
+        </p>
         <DialogFooter>
           <DialogClose>
             <Button>Close</Button>
